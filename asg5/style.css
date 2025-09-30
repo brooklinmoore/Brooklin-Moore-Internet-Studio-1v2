@@ -6,17 +6,16 @@ body {
     padding: 0;
 }
 
-/* Header Style — Fancy Cursive */
+
 h1 {
     font-family: 'Great Vibes', cursive;
-    color: #4B0082; /* deep indigo */
+    color: #4B0082;
     text-align: center;
     font-size: 48px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
-/* Paragraphs — Warm Gray Tone */
 p {
     color: #333333;
     font-size: 16px;
@@ -24,9 +23,9 @@ p {
     padding: 0 20px;
 }
 
-/* List Items — Jewel tone color */
+
 li {
-    color: #006666; /* deep teal */
+    color: #006666;
     font-size: 16px;
     margin-left: 40px;
     margin-bottom: 8px;
