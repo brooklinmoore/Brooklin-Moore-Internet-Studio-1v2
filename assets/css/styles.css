@@ -1,30 +1,32 @@
-body {
+body { 
 	font-family: 'Quicksand', sans-serif;
-	background-color: #FFF1E6;
-	color: #7A4E48;
+	background-color: #f3efe6; /* soft warm beige */
+	color: #3e2f1c; /* rich earthy brown */
 	margin: 0;
 	padding: 0;
 }
 
 h1, h2 {
 	font-family: 'Playfair Display', serif;
-	color: #caaf74;
+	color: #a67c52; /* warm tan for headings */
 }
 
 header {
-	background-color: #D8A7B1;
+	background-color: #bfa5a0; /* muted dusty rose */
 	padding: 2px;
 	text-align: center;
 }
+
 .about {
-	background-color: #506140;
+	background-color: #6e7d5d; /* earthy olive green */
 	padding: 2px;
 	margin: 2px;
 	border-radius: 10px;
-	color: #141414;
+	color: #f8f5f0; /* light text for contrast */
 }
+
 .assignments {
-	background-color: #D9B99B;
+	background-color: #ccb89c; /* soft clay beige */
 	padding: 2px;
 	margin: 2px;
 	border-radius: 10px;
@@ -40,7 +42,7 @@ header {
 }
 
 .assignments a {
-	color: #7A4E48;
+	color: #5c3d2e; /* deep earthy brown */
 	text-decoration: none;
 	font-weight: 600;
 }
