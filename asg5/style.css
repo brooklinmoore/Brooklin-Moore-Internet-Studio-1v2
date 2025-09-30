@@ -1,34 +1,36 @@
-/* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap');
 
 body {
-    background-image: url('https://www.transparenttextures.com/patterns/blackboard.png');
-    background-color: #2c2c2c; /* backup chalkboard color */
-    font-family: 'Roboto', sans-serif;
+    background-image: url('https://www.transparenttextures.com/patterns/diagonal-noise.png'); /* clean stripe pattern */
+    background-color: #fefefe;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    color: #fdfdfd;
 }
 
-/* h1 — Elegant French Look */
+/* Header Style — Fancy Cursive */
 h1 {
-    font-family: 'Playfair Display', serif;
-    color: #f5f5dc; /* cream */
+    font-family: 'Great Vibes', cursive;
+    color: #4B0082; /* deep indigo */
     text-align: center;
+    font-size: 48px;
     margin-top: 30px;
+    margin-bottom: 10px;
 }
 
-/* Paragraph style — elegant white chalk */
+/* Paragraphs — Warm Gray Tone */
 p {
-    color: #ffffff;
-    font-size: 17px;
+    color: #333333;
+    font-size: 16px;
     line-height: 1.6;
-    margin: 10px 0;
+    padding: 0 20px;
 }
 
-/* List items — soft gold/chalk feel */
+/* List Items — Jewel tone color */
 li {
-    color: #e0d6b8; /* soft gold/chalk */
+    color: #006666; /* deep teal */
     font-size: 16px;
+    margin-left: 40px;
     margin-bottom: 8px;
 }
