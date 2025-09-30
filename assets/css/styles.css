@@ -1,6 +1,6 @@
 body {
   font-family: 'Quicksand', sans-serif;
-  background-color: #cead9a; /* Soft clay background */
+  background-color: #e2cccc; /* Soft clay background */
   color: #f4f1ec; /* Eggshell white text */
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@ body {
 
 h1, h2 {
   font-family: 'Playfair Display', serif;
-  color: #A69080; /* Warm taupe for headings */
+  color: #c7b9b0; /* Warm taupe for headings */
 }
 
 header {
