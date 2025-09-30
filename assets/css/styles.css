@@ -1,36 +1,38 @@
 body { 
 	font-family: 'Quicksand', sans-serif;
-	background-color: #c0b7a4; /* deep earthy soil */
-	color: #EDE6DB; /* warm light for contrast */
+	background-color: #F9F5F0; /* soft warm background */
+	color: #3E3E3E; /* dark gray text */
 	margin: 0;
 	padding: 0;
 }
 
 h1, h2 {
 	font-family: 'Playfair Display', serif;
-	color: #e7bb88; /* muted terracotta */
+	color: #7A5C61; /* muted mauve */
 }
 
 header {
-	background-color: #b4867d; /* dark dusty rose-brown */
-	padding: 2px;
+	background-color: #FFCFCF; /* soft pink */
+	padding: 2rem;
 	text-align: center;
 }
 
 .about {
-	background-color: #374e35; /* mossy green */
-	padding: 2px;
-	margin: 2px;
-	border-radius: 10px;
-	color: #EDE6DB;
+	background-color: #D6E5D8; /* dusty light green */
+	padding: 1.5rem;
+	margin: 2rem;
+	border-radius: 12px;
+	color: #3E3E3E;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 .assignments {
-	background-color: #6B4E3D; /* rich brown-orange */
-	padding: 2px;
-	margin: 2px;
-	border-radius: 10px;
-	color: #EDE6DB;
+	background-color: #F4D19B; /* warm honey-peach */
+	padding: 1.5rem;
+	margin: 2rem;
+	border-radius: 12px;
+	color: #3E3E3E;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 .assignments ul {
@@ -39,11 +41,11 @@ header {
 }
 
 .assignments li {
-	margin-bottom: 0.5px;
+	margin-bottom: 0.75rem;
 }
 
 .assignments a {
-	color: #A3797A; /* muted pink accent */
+	color: #9B6B99; /* muted orchid link color */
 	text-decoration: none;
 	font-weight: 600;
 }
