@@ -1,6 +1,6 @@
 body {
   font-family: 'Quicksand', sans-serif;
-  background-color: #AC8968; /* Soft clay background */
+  background-color: #cead9a; /* Soft clay background */
   color: #f4f1ec; /* Eggshell white text */
   margin: 0;
   padding: 0;
@@ -28,7 +28,7 @@ header {
 }
 
 .assignments {
-  background-color: #2d422a;
+  background-color: #41523e;
   padding: 1.5rem;
   margin: 2rem;
   border-radius: 12px;
