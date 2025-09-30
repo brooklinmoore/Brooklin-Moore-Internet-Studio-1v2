@@ -1,6 +1,6 @@
 body { 
 	font-family: 'Quicksand', sans-serif;
-	background-color: #4b3d2f; /* deep earthy soil */
+	background-color: #c0b7a4; /* deep earthy soil */
 	color: #EDE6DB; /* warm light for contrast */
 	margin: 0;
 	padding: 0;
@@ -8,7 +8,7 @@ body {
 
 h1, h2 {
 	font-family: 'Playfair Display', serif;
-	color: #b98345; /* muted terracotta */
+	color: #e7bb88; /* muted terracotta */
 }
 
 header {
