@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Fredericka+the+Great&display=swap');
+
 body {
     background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -8,10 +12,14 @@ h1 {
     font-family: 'Fredericka the Great', cursive;
 }
 
+/* Style for p */
 p {
     color: darkgreen;
+    font-size: 16px;
 }
 
+/* Style for li */
 li {
     color: darkred;
+    font-size: 16px;
 }
