@@ -1,0 +1,70 @@
+/* Google Fonts */
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #FFF1E6; /* Cream background */
+	color: #7A4E48; /* Deep Plum text */
+	margin: 0;
+	padding: 0;
+}
+
+/* Heading Font */
+h1, h2 {
+	font-family: 'Playfair Display', serif;
+	color: #7A4E48;
+}
+
+/* Header Section */
+header {
+	background-color: #D8A7B1; /* Dusty Rose */
+	padding: 2rem;
+	text-align: center;
+}
+
+/* Profile Image */
+.profile-image {
+	text-align: center;
+	margin: 2rem 0;
+}
+
+.profile-image img {
+	max-width: 300px;
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Section */
+.about {
+	background-color: #A8C3A5; /* Sage Green */
+	padding: 2rem;
+	margin: 2rem;
+	border-radius: 10px;
+	color: #2f2f2f;
+}
+
+/* Assignments */
+.assignments {
+	background-color: #D9B99B; /* Soft Clay */
+	padding: 2rem;
+	margin: 2rem;
+	border-radius: 10px;
+}
+
+.assignments ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.assignments li {
+	margin-bottom: 0.5rem;
+}
+
+.assignments a {
+	color: #7A4E48;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.assignments a:hover {
+	text-decoration: underline;
+}
