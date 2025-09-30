@@ -8,7 +8,7 @@ body {
 
 h1, h2 {
 	font-family: 'Playfair Display', serif;
-	color: #7A4E48;
+	color: #fdcc62;
 }
 
 header {
@@ -17,7 +17,7 @@ header {
 	text-align: center;
 }
 .about {
-	background-color: #A8C3A5;
+	background-color: #617250;
 	padding: 2px;
 	margin: 2px;
 	border-radius: 10px;
