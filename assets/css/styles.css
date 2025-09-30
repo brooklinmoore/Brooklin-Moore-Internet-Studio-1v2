@@ -1,25 +1,24 @@
 body {
   font-family: 'Quicksand', sans-serif;
-  background-color: #e2d8cc; /* Soft clay background */
-  color: #f4f1ec; /* Eggshell white text */
+  background-color: #e2d8cc;
+  color: #f4f1ec; 
   margin: 0;
   padding: 0;
 }
 
 h1, h2 {
   font-family: 'Playfair Display', serif;
-  color: #c7b9b0; /* Warm taupe for headings */
-}
+  color: #c7b9b0; 
 
 header {
-  background-color: #3E362E; /* Deep brown */
+  background-color: #3E362E;
   padding: 2rem;
   text-align: center;
   color: #F4F1EC;
 }
 
 .about {
-  background-color: #865D36; /* Warm chestnut */
+  background-color: #865D36;
   padding: 1.5rem;
   margin: 2rem;
   border-radius: 12px;
@@ -36,13 +35,8 @@ header {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.assignments ul {
-  list-style-type: none;
-  padding: 0;
-}
-
 .assignments li {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.75px;
 }
 
 .assignments a {
