@@ -1,6 +1,6 @@
 body {
   font-family: 'Quicksand', sans-serif;
-  background-color: #e2d8cc;
+  background-color: #e2cccc; 
   color: #f4f1ec; 
   margin: 0;
   padding: 0;
@@ -8,7 +8,8 @@ body {
 
 h1, h2 {
   font-family: 'Playfair Display', serif;
-  color: #c7b9b0; 
+  color: #c7b9b0;
+}
 
 header {
   background-color: #3E362E;
@@ -35,8 +36,13 @@ header {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.assignments ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 .assignments li {
-  margin-bottom: 0.75px;
+  margin-bottom: 0.75rem;
 }
 
 .assignments a {
