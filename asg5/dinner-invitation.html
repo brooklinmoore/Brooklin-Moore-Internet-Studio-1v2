@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Dream Dinner Party</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Fredericka+the+Great&display=swap" rel="stylesheet">
+
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>My Dream Dinner Party</h1>
+
+    <!-- Guest 1: Tiana -->
+    <div class="guest">
+        <!-- Insert image of Tiana here -->
+        <p><strong>Tiana</strong> is the hardworking and ambitious heroine from Disney’s *The Princess and the Frog*. She dreams of owning her own restaurant and is known for her amazing cooking, especially her legendary gumbo. I’d love to have her at the party because she would bring charm, inspiration, and maybe even a dish or two of her own!</p>
+    </div>
+
+    <!-- Guest 2: Naruto Uzumaki -->
+    <div class="guest">
+        <!-- Insert image of Naruto here -->
+        <p><strong>Naruto Uzumaki</strong> is a ninja from the Hidden Leaf Village with a huge appetite — especially for ramen! His never-give-up attitude and fun personality would make him a lively and entertaining guest. Plus, I'd love to see him go head-to-head in a ramen eating contest.</p>
+    </div>
+
+    <!-- Guest 3: Johnny Bravo -->
+    <div class="guest">
+        <!-- Insert image of Johnny Bravo here -->
+        <p><strong>Johnny Bravo</strong> is the overconfident, Elvis-voiced ladies’ man with big muscles and bigger hair. He might be a little clueless, but he'd definitely bring energy (and flexing) to the dinner table. Plus, watching him try to flirt with Tiana would be hilarious.</p>
+    </div>
+
+    <!-- Menu List -->
+    <ul>
+        <li><strong>Appetizers:</strong> Tiana’s Southern Cornbread Muffins, Edamame Dumplings, Protein-Packed Nachos</li>
+        <li><strong>Main Course:</strong> Gumbo Royale, Ichiraku Ramen Deluxe, Bravo’s Mega Cheeseburger Tower</li>
+        <li><strong>Dessert:</strong> Beignets, Mochi Ice Cream, Banana Protein Smoothies</li>
+    </ul>
+
+    <!-- RSVP Form -->
+    <form>
+        <h2>RSVP</h2>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <p>Will you be bringing a guest?</p>
+        <input type="radio" id="yes" name="guest" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="guest" value="no">
+        <label for="no">No</label>
+
+        <p>Dietary Preferences:</p>
+        <textarea id="diet" name="diet" rows="4" cols="50" placeholder="Let us know if you're vegan, allergic to peanuts, etc."></textarea>
+
+        <br><br>
+        <button type="submit">Submit RSVP</button>
+    </form>
+
+</body>
+</html>

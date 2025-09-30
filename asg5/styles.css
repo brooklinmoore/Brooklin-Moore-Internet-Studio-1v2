@@ -1,0 +1,17 @@
+body {
+    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: darkblue;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+p {
+    color: darkgreen;
+}
+
+li {
+    color: darkred;
+}
