@@ -1,36 +1,36 @@
 body { 
 	font-family: 'Quicksand', sans-serif;
-	background-color: #F5F1E3; /* soft cream-beige for contrast */
-	color: #4B3621; /* deep earthy brown (soil) */
+	background-color: #2E2A26; /* deep earthy soil */
+	color: #EDE6DB; /* warm light for contrast */
 	margin: 0;
 	padding: 0;
 }
 
 h1, h2 {
 	font-family: 'Playfair Display', serif;
-	color: #C47436; /* burnt orange/clay for headlines */
+	color: #A35F3F; /* muted terracotta */
 }
 
 header {
-	background-color: #D8A39D; /* muted rose-pink */
+	background-color: #5E4B47; /* dark dusty rose-brown */
 	padding: 2px;
 	text-align: center;
 }
 
 .about {
-	background-color: #6B8E23; /* olive green */
+	background-color: #3E503C; /* mossy green */
 	padding: 2px;
 	margin: 2px;
 	border-radius: 10px;
-	color: #F5F1E3; /* light text for readability */
+	color: #EDE6DB;
 }
 
 .assignments {
-	background-color: #C47436; /* burnt orange */
+	background-color: #6B4E3D; /* rich brown-orange */
 	padding: 2px;
 	margin: 2px;
 	border-radius: 10px;
-	color: #F5F1E3;
+	color: #EDE6DB;
 }
 
 .assignments ul {
@@ -43,7 +43,7 @@ header {
 }
 
 .assignments a {
-	color: #F5F1E3; /* light color for contrast */
+	color: #A3797A; /* muted pink accent */
 	text-decoration: none;
 	font-weight: 600;
 }
