@@ -12,7 +12,7 @@ h1, h2 {
 }
 
 header {
-	background-color: #d2cfff; /* soft pink */
+	background-color: #f5c2db; /* soft pink */
 	padding: 2rem;
 	text-align: center;
 }
@@ -27,7 +27,7 @@ header {
 }
 
 .assignments {
-	background-color: #ffbdc6; /* warm honey-peach */
+	background-color: #d4bdff; /* warm honey-peach */
 	padding: 1.5rem;
 	margin: 2rem;
 	border-radius: 12px;
