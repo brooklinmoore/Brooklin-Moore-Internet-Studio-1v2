@@ -1,55 +1,55 @@
-body { 
-	font-family: 'Quicksand', sans-serif;
-	background-color: #F9F5F0; /* soft warm background */
-	color: #3E3E3E; /* dark gray text */
-	margin: 0;
-	padding: 0;
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #F5F3EB; /* Soft cream */
+  color: #4B3B2B; /* Dark brown text */
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2 {
-	font-family: 'Playfair Display', serif;
-	color: #7A5C61; /* muted mauve */
+  font-family: 'Playfair Display', serif;
+  color: #876D4B; /* Medium brown headings */
 }
 
 header {
-	background-color: #f5c2db; /* soft pink */
-	padding: 2rem;
-	text-align: center;
+  background-color: #7A8450; /* Muted olive green */
+  padding: 2rem;
+  text-align: center;
 }
 
 .about {
-	background-color: #D6E5D8; /* dusty light green */
-	padding: 1.5rem;
-	margin: 2rem;
-	border-radius: 12px;
-	color: #3E3E3E;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  background-color: #A1B490; /* Sage green */
+  padding: 1.5rem;
+  margin: 2rem;
+  border-radius: 12px;
+  color: #4B3B2B;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 .assignments {
-	background-color: #d4bdff; /* warm honey-peach */
-	padding: 1.5rem;
-	margin: 2rem;
-	border-radius: 12px;
-	color: #3E3E3E;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  background-color: #C8B79B; /* Light brown */
+  padding: 1.5rem;
+  margin: 2rem;
+  border-radius: 12px;
+  color: #4B3B2B;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 .assignments ul {
-	list-style-type: none;
-	padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .assignments li {
-	margin-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .assignments a {
-	color: #9B6B99; /* muted orchid link color */
-	text-decoration: none;
-	font-weight: 600;
+  color: #D9603B; /* Terracotta accent */
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .assignments a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
