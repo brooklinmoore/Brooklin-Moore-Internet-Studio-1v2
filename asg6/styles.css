@@ -1,6 +1,4 @@
-/* -------------------------------
-   FONT + BASE STYLES
---------------------------------- */
+/* fonts, base style */
 html {
   background: url("images/background-pattern.png") repeat;
   font-family: 'Open Sans', sans-serif;
@@ -15,16 +13,14 @@ body {
   border-radius: 12px;
 }
 
-/* -------------------------------
-   HEADINGS STYLING
---------------------------------- */
+/* headings */
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
-  color: #354F52; /* Complementary shade to body text */
+  color: #354F52; /* Color*/
 }
 
 h1 {
-  font-size: 2.5em; /* Scalable for main title */
+  font-size: 2.5px; /* Scalable for main title */
   border-bottom: 3px solid #52796F;
   padding-bottom: 10px;
 }
