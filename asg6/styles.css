@@ -46,9 +46,12 @@ p {
 }
 
 /* Images */
-.redhat {
-  float: right;
-  width: 150px;
-  margin: 10px 0 20px 20px;
-  border-radius: 10px;
+.image-container {
+  position: relative;
+}
+
+.my-image {
+  position: absolute; 
+  top: 50px; 
+  left: 100px; 
 }
