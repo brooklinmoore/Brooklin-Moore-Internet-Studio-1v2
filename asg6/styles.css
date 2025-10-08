@@ -10,7 +10,7 @@ body {
   margin: 40px;
   padding: 20px 40px;
   background-color: rgba(255, 255, 255, 0.85);
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
 /* headings */
@@ -26,22 +26,22 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 1.5em;
   margin-top: 1.5em;
   color: #2C6E49; /* Different tone for hat sections */
 }
 
 h3 {
-  font-size: 1.6em;
-  color: #84A98C;
-  margin-top: 2em;
+  font-size: 1.5em;
+  color: #7cacb3;
+  margin-top: 1.5em;
 }
 
 /* Paragraphs */
 p {
   font-size: 1em;
   line-height: 1.8; /* Custom leading for readability */
-  margin-bottom: 1.2em;
+  margin-bottom: 1em;
   text-align: justify;
 }
 
