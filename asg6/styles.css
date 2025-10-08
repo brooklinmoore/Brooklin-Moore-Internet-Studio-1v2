@@ -46,12 +46,13 @@ p {
 }
 
 /* Images */
-.image-container {
-  position: relative;
+.hat-title {
+  display: flex;
+  align-items: center;
+  margin: 10px; /* space between text and image */
 }
 
-.redhat.png {
-  position: absolute; 
-  top: 50px; 
-  left: 100px; 
+.hat-icon {
+  width: 30px;
+  height: auto;
 }
