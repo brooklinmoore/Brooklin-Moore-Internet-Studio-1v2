@@ -1,8 +1,8 @@
 /* fonts, base style */
 html {
-  background: url("images/background-pattern.png") repeat;
+  background: url("https://www.toptal.com/designers/subtlepatterns/uploads/double-bubble-outline.png") repeat;
   font-family: 'Open Sans', sans-serif;
-  color: #2F3E46; /* Dark greenish-gray for body text */
+  color: #2F3E46; /* Dark greenish for body text */
   line-height: 1.6; /* Improved readability */
 }
 
@@ -20,8 +20,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2.5px; /* Scalable for main title */
-  border-bottom: 3px solid #52796F;
+  font-size: 2.5em; /* Scalable for main title */
+  border-bottom: 3px dotted #52796F;
   padding-bottom: 10px;
 }
 
@@ -37,9 +37,7 @@ h3 {
   margin-top: 2em;
 }
 
-/* -------------------------------
-   PARAGRAPH STYLING
---------------------------------- */
+/* Paragraphs */
 p {
   font-size: 1em;
   line-height: 1.8; /* Custom leading for readability */
@@ -47,32 +45,10 @@ p {
   text-align: justify;
 }
 
-/* -------------------------------
-   IMAGE STYLING
---------------------------------- */
+/* Images */
 .hat-image {
   float: right;
   width: 150px;
   margin: 10px 0 20px 20px;
   border-radius: 10px;
 }
-
-/* -------------------------------
-   COLOR PALETTE (COMPLEMENTARY)
----------------------------------
-   #2F3E46 - text base
-   #52796F - accents
-   #84A98C - highlights
-   #CAD2C5 - background tones
-   #354F52 - headings
---------------------------------- */
-
-/* 
-Comment Explanation:
-- Used Playfair Display for elegant headings
-- Used Open Sans for clean readable body text
-- Line spacing (1.8) improves legibility
-- Complementary greens/teals for a natural, calm palette
-- Float image right for visual balance
-- Background from Subtle Patterns enhances texture
-*/
