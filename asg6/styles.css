@@ -40,13 +40,13 @@ h3 {
 /* Paragraphs */
 p {
   font-size: 1em;
-  line-height: 1.8; /* Custom leading for readability */
+  line-height: 1.8;
   margin-bottom: 1em;
   text-align: justify;
 }
 
 /* Images */
-.hat-image {
+.redhat {
   float: right;
   width: 150px;
   margin: 10px 0 20px 20px;
