@@ -46,13 +46,10 @@ p {
 }
 
 /* Images */
-.hat-title {
-  display: flex;
-  align-items: center;
-  margin: 5px;
+.summary-hat {
+  float: right;
+  width: 80px;
+  height: auto;
+  margin: 0 0 10px 10px; 
 }
 
-.hat-icon {
-  width: 30px;
-  height: auto;
-}
