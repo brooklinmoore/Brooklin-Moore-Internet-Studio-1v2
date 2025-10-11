@@ -95,12 +95,3 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-/* Footer */
-footer {
-  background-color: #e2b13c;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  font-size: 0.9em;
-}
