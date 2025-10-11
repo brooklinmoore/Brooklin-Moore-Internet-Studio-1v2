@@ -1,8 +1,35 @@
-/* Base Styles */
+/* arbutus-slab-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arbutus Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/arbutus-slab-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* ar-one-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'AR One Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/ar-one-sans-v6-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* Apply fonts */
+h1, h2, h3 {
+  font-family: 'Arbutus Slab', serif;
+}
+
+p, ul {
+  font-family: 'AR One Sans', sans-serif;
+}
+
+/* ===== Base Styles ===== */
 body {
   background: #f9f5e8;
   color: #333;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'AR One Sans', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -13,7 +40,7 @@ header {
   text-align: center;
   padding: 20px;
   color: white;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Arbutus Slab', serif;
 }
 
 /* Main Layout */
