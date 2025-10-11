@@ -3,8 +3,8 @@ html {
   background: url("https://www.toptal.com/designers/subtlepatterns/uploads/paisley.png") repeat;
   background-size: cover;
   font-family: 'Raleway', sans-serif;
-  color: #2B2D42; /* Dark slate body text */
-  line-height: 1.6; /* Paragraph leading */
+  color: #2B2D42; 
+  line-height: 1.6; 
 }
 
 body {
@@ -23,14 +23,14 @@ h1, h2, h3 {
 
 h1 {
   font-size: 36px;
-  color: #EF476F; /* Pink/red header */
-  border-bottom: 3px dotted #06D6A0;
+  color: #f8b5c4; /* Pink header */
+  border-bottom: 3px dotted #2285c7;
   padding-bottom: 10px;
 }
 
 h2 {
   font-size: 28px;
-  color: #06D6A0; /* Green header */
+  color: #188f97; /* Green header */
 }
 
 h3 {
