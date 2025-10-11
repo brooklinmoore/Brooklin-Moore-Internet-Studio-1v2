@@ -30,7 +30,12 @@ h1 {
 
 h2 {
   font-size: 28px;
-  color: #188f97; /* Green header */
+  color: #188f97;
+}
+
+h3{
+    font-size: 20px;
+    color: #184f97;
 }
 
 /* Paragraphs */
