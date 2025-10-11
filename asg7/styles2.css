@@ -1,46 +1,49 @@
 /* fonts, base style */
 html {
   background: url("https://www.toptal.com/designers/subtlepatterns/uploads/paisley.png") repeat;
-  font-family: 'Open Sans', sans-serif;
-  color: #2F3E46; /* Dark greenish for body text */
-  line-height: 1.6; /* Improved readability */
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  color: #2B2D42; /* Dark slate body text */
+  line-height: 1.6; /* Paragraph leading */
 }
 
 body {
   margin: 40px;
   padding: 20px 40px;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
 }
 
 /* headings */
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
-  color: #354F52; /* Color*/
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 }
 
 h1 {
-  font-size: 2.5em; /* Scalable for main title */
-  border-bottom: 3px dotted #52796F;
+  font-size: 36px;
+  color: #EF476F; /* Pink/red header */
+  border-bottom: 3px dotted #06D6A0;
   padding-bottom: 10px;
 }
 
 h2 {
-  font-size: 1.5em;
-  margin-top: 1.5em;
-  color: #2C6E49; /* Different tone for hat sections */
+  font-size: 28px;
+  color: #06D6A0; /* Green header */
 }
 
 h3 {
-  font-size: 1.5em;
-  color: #7cacb3;
-  margin-top: 1.5em;
+  font-size: 22px;
+  color: #FFD166; /* Yellow header */
 }
 
 /* Paragraphs */
 p {
-  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
   line-height: 1.8;
   margin-bottom: 1em;
   text-align: left;
+  color: #2B2D42;
 }
