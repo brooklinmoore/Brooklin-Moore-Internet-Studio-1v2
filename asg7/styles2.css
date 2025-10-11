@@ -1,57 +1,46 @@
-/* Google Fonts */
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
-
-html{
-    background: url("https://www.toptal.com/designers/subtlepatterns/uploads/paisley.png");
-    font-family: 'Raleway', sans-serif;
+/* fonts, base style */
+html {
+  background: url("https://www.toptal.com/designers/subtlepatterns/uploads/paisley.png") repeat;
+  font-family: 'Open Sans', sans-serif;
+  color: #2F3E46; /* Dark greenish for body text */
+  line-height: 1.6; /* Improved readability */
 }
 
-/* Body setup */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Raleway', sans-serif; /* main text */
-    font-size: 16px; 
-    line-height: 1.6; /* paragraph spacing */
-    color: #333;
-    background: url('images/background.jpg') no-repeat center center fixed; 
-    background-size: cover; 
+  margin: 40px;
+  padding: 20px 40px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
 }
 
-/* Color palette */
-:root {
-    --primary-color: #4CAF50; 
-    --secondary-color: #8BC34A; 
-    --accent-color: #FF9800; 
-    --background-color: rgba(255, 255, 255, 0.8); /* for overlays */
-}
-
-/* Headers */
+/* headings */
 h1, h2, h3 {
-    font-family: 'Lora', serif; /* unique header font */
-    color: var(--primary-color);
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+  font-family: 'Playfair Display', serif;
+  color: #354F52; /* Color*/
 }
 
-h1 { font-size: 36px; } 
-h2 { font-size: 28px; } 
-h3 { font-size: 22px; } 
+h1 {
+  font-size: 2.5em; /* Scalable for main title */
+  border-bottom: 3px dotted #52796F;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 1.5em;
+  color: #2C6E49; /* Different tone for hat sections */
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #7cacb3;
+  margin-top: 1.5em;
+}
 
 /* Paragraphs */
 p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px; 
-    line-height: 1.8; 
-    color: #555;
-    margin-bottom: 1em;
-}
-
-/* Optional container for readability */
-.container {
-    background-color: var(--background-color);
-    padding: 2em;
-    max-width: 1200px;
-    margin: auto;
-    border-radius: 10px;
+  font-size: 1em;
+  line-height: 1.8;
+  margin-bottom: 1em;
+  text-align: left;
 }
