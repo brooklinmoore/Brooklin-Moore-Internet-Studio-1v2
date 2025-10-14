@@ -16,7 +16,6 @@
   src: url('fonts/ar-one-sans-v6-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/* Apply fonts */
 h1, h2, h3 {
   font-family: 'Arbutus Slab', serif;
 }
@@ -25,7 +24,7 @@ p, ul {
   font-family: 'AR One Sans', sans-serif;
 }
 
-/* ===== Base Styles ===== */
+/* Body Styles */
 body {
   background: #f9f5e8;
   color: #333;
