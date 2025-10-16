@@ -24,26 +24,56 @@ h1, h2, h3 {
 }
 
 header {
-    background-color: rgba(42, 26, 47, 0.95);
+    background-color: rgba(42,26,47,0.95);
     color: var(--text-color);
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid var(--secondary-color);
+    font-family: 'IM Fell English SC', serif;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    color: var(--secondary-color);
+    text-shadow: 0 0 8px rgba(166,124,51,0.7); /* soft golden glow */
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
 }
 
 nav a {
     color: var(--text-color);
     text-decoration: none;
-    margin: 0 1rem;
     font-weight: 600;
-    transition: color 0.3s ease;
+    font-size: 1rem;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--secondary-color);
+    transition: width 0.3s;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+}
+
+nav a:hover::after {
+    width: 100%;
 }
 
 nav a:hover {
     color: var(--secondary-color);
-    text-shadow: 0 0 5px var(--secondary-color);
 }
 
 .hero {
