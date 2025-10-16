@@ -1,10 +1,11 @@
 /* Google Fonts already linked in HTML */
 
-/* Fluid Type Scale */
+/* Base font size */
 html {
-    font-size: clamp(16px, 1.2vw + 0.5rem, 20px);
+    font-size: 16px;
 }
 
+/* Body text */
 body {
     margin: 0;
     font-family: 'AR One Sans', sans-serif;
@@ -14,29 +15,39 @@ body {
     padding: 2rem;
 }
 
-h1 {
+/* Headings using static scale */
+h1, h2, h3, h4, h5 {
     font-family: 'Arbutus Slab', serif;
-    font-size: clamp(2rem, 4vw + 1rem, 3rem);
+    font-weight: 500;
+    line-height: 1.15;
     color: #1F2F16; /* Dark green */
-    margin-bottom: 1rem;
-    border-bottom: 3px solid #25441d; /* slightly darker green accent */
+    margin-top: 0;
 }
+
+/* Static type scale (from Fluid Type Scale Generator) */
+h1 { font-size: 3.05em; border-bottom: 3px solid #25441d; margin-bottom: 1rem; }
+h2 { font-size: 2.44em; }
+h3 { font-size: 1.95em; }
+h4 { font-size: 1.56em; }
+h5 { font-size: 1.25em; }
 
 p {
-    font-size: clamp(1rem, 1.2vw + 0.5rem, 1.25rem);
+    font-size: 1em;
     margin-bottom: 1rem;
 }
 
+/* Emphasis */
 strong {
     color: #395B50; /* Teal green */
 }
 
+/* Header section */
 header {
     text-align: center;
     margin-bottom: 2rem;
 }
 
-
+/* Domain list */
 ul {
     list-style-type: none;
     padding: 0;
