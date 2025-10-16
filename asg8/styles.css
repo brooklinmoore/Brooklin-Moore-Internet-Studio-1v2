@@ -1,4 +1,17 @@
-/* Google Fonts already linked in HTML */
+@font-face {
+  font-family: 'Arbutus Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/arbutus-slab-v18-latin-regular.woff2') format('woff2');
+}
+
+/* AR One Sans */
+@font-face {
+  font-family: 'AR One Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/ar-one-sans-v2-latin-regular.woff2') format('woff2');
+}
 
 /* Base font size */
 html {
@@ -15,7 +28,7 @@ body {
     padding: 2rem;
 }
 
-/* Headings using static scale */
+/* Headings */
 h1, h2, h3, h4, h5 {
     font-family: 'Arbutus Slab', serif;
     font-weight: 500;
@@ -24,7 +37,7 @@ h1, h2, h3, h4, h5 {
     margin-top: 0;
 }
 
-/* Static type scale (from Fluid Type Scale Generator) */
+
 h1 { font-size: 3.05em; border-bottom: 3px solid #25441d; margin-bottom: 1rem; }
 h2 { font-size: 2.44em; }
 h3 { font-size: 1.95em; }
@@ -36,18 +49,18 @@ p {
     margin-bottom: 1rem;
 }
 
-/* Emphasis */
+
 strong {
     color: #395B50; /* Teal green */
 }
 
-/* Header section */
+/* Header*/
 header {
     text-align: center;
     margin-bottom: 2rem;
 }
 
-/* Domain list */
+/* list */
 ul {
     list-style-type: none;
     padding: 0;
