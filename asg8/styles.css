@@ -47,9 +47,4 @@ li {
     background-color: #A7C4A0; /* Light complementary green */
     color: #1F2F16;
     font-weight: bold;
-    padding: 0.5rem 1rem;
-    margin: 0.5rem auto;
-    max-width: 300px;
-    border-radius: 8px;
-    text-align: center;
 }
