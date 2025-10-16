@@ -1,14 +1,5 @@
 /* Google Fonts already linked in HTML */
 
-:root {
-    /* Color Palette */
-    --color-bg: #FDF8F0;      /* Creamy white */
-    --color-primary: #1F2F16; /* Dark green */
-    --color-secondary: #395B50; /* Teal green */
-    --color-accent: #A7C4A0;  /* Light complementary green */
-    --color-text: #222222;    /* Dark text */
-}
-
 /* Fluid Type Scale */
 html {
     font-size: clamp(16px, 1.2vw + 0.5rem, 20px);
@@ -17,8 +8,8 @@ html {
 body {
     margin: 0;
     font-family: 'AR One Sans', sans-serif;
-    background-color: var(--color-bg);
-    color: var(--color-text);
+    background-color: #c3dabe; 
+    color: #15251a; 
     line-height: 1.6;
     padding: 2rem;
 }
@@ -26,8 +17,9 @@ body {
 h1 {
     font-family: 'Arbutus Slab', serif;
     font-size: clamp(2rem, 4vw + 1rem, 3rem);
-    color: var(--color-primary);
+    color: #1F2F16; /* Dark green */
     margin-bottom: 1rem;
+    border-bottom: 3px solid #25441d; /* slightly darker green accent */
 }
 
 p {
@@ -36,11 +28,34 @@ p {
 }
 
 strong {
-    color: var(--color-secondary);
+    color: #395B50; /* Teal green */
 }
 
-/* Optional: Header styling */
 header {
     text-align: center;
     margin-bottom: 2rem;
+}
+
+/* Optional styling for the list of domain names */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+li {
+    background-color: #A7C4A0; /* Light complementary green */
+    color: #1F2F16;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem auto;
+    max-width: 300px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+li:hover {
+    background-color: #395B50;
+    color: #FDF8F0;
+    transition: 0.3s;
 }
