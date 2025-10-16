@@ -53,9 +53,3 @@ li {
     border-radius: 8px;
     text-align: center;
 }
-
-li:hover {
-    background-color: #395B50;
-    color: #FDF8F0;
-    transition: 0.3s;
-}
