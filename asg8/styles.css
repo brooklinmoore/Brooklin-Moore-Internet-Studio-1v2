@@ -1,0 +1,46 @@
+/* Google Fonts already linked in HTML */
+
+:root {
+    /* Color Palette */
+    --color-bg: #FDF8F0;      /* Creamy white */
+    --color-primary: #1F2F16; /* Dark green */
+    --color-secondary: #395B50; /* Teal green */
+    --color-accent: #A7C4A0;  /* Light complementary green */
+    --color-text: #222222;    /* Dark text */
+}
+
+/* Fluid Type Scale */
+html {
+    font-size: clamp(16px, 1.2vw + 0.5rem, 20px);
+}
+
+body {
+    margin: 0;
+    font-family: 'AR One Sans', sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+h1 {
+    font-family: 'Arbutus Slab', serif;
+    font-size: clamp(2rem, 4vw + 1rem, 3rem);
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: clamp(1rem, 1.2vw + 0.5rem, 1.25rem);
+    margin-bottom: 1rem;
+}
+
+strong {
+    color: var(--color-secondary);
+}
+
+/* Optional: Header styling */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
