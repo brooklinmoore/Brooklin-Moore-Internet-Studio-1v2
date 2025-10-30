@@ -171,3 +171,24 @@ ul {
 a {
     transition: all 0.3s ease;
 }
+
+/* Hero section with image behind text */
+.hero-section {
+    background-image: url("img/Castle.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 120px 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 15px;
+    margin: 2rem auto;
+    max-width: 1200px;
+    backdrop-filter: brightness(0.9);
+}
+
+.hero-text {
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px black;
+    margin-bottom: 20px;
+}
