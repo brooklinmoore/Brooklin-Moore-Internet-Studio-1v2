@@ -1,0 +1,75 @@
+/* Google Fonts */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('https://cdn.bgjar.com/geometry-bg.svg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  color: #1b1b1b;
+  line-height: 1.6;
+}
+
+/* Headers */
+h1 {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 30px;
+  color: #222;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.2em;
+  color: #2e3a59;
+  margin-top: 10px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1em;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* Summary Section */
+.summary {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto 40px;
+  font-size: 1.1em;
+}
+
+/* Gallery Grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0 40px 60px;
+}
+
+.movie {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.movie:hover {
+  transform: scale(1.03);
+}
+
+.movie img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  background: rgba(0, 0, 0, 0.05);
+}
