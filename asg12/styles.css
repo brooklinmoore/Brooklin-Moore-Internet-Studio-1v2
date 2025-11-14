@@ -70,7 +70,7 @@ p {
 
 /* Movie Cards */
 .movie {
-  background: linear-gradient(180deg, var(--secondary), var(--primary));
+  background: rgba(255,255,255,0.85);
   border-radius: 15px;
   padding: 15px;
   text-align: center;
