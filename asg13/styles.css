@@ -1,0 +1,96 @@
+/* GLOBAL STYLES*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to bottom right, #f5f7fa, #dfe7f1);
+    color: #333;
+}
+
+/* Heading styles - using complementary serif font */
+h1, h2, h3 {
+    font-family: "Merriweather", serif;
+    margin-bottom: 10px;
+}
+
+/* Header */
+header {
+    background-color: #4a6fa5; /* Deep muted blue */
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+/* Intro section */
+.intro {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.intro p {
+    line-height: 1.6em;
+    font-size: 1.1rem;
+}
+
+/* JOB GRID SECTION*/
+
+.job-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.job {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Company logos */
+.job img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Job title */
+.job h3 {
+    font-size: 1.4rem;
+    color: #2b4d73;
+}
+
+/* Links */
+.job a {
+    text-decoration: none;
+    color: #4a6fa5;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.job a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraph inside each job card */
+.job p {
+    font-size: 1rem;
+    line-height: 1.5em;
+}
+
+/* Comments:
+   - The grid is responsive and adjusts to screen sizes.
+   - Flexbox inside .job keeps content stacked neatly.
+   - Color palette uses navy/soft blues + light gray background.
+*/
